@@ -1,8 +1,0 @@
-# Nmap 7.95 scan initiated Sat Mar 14 16:19:25 2026 as: /snap/nmap/4171/usr/bin/nmap -sn --send-ip -oN "/home/desk/Área de trabalho/ifmt/v1/results/run_20260314_161924/discovery.txt" 192.168.15.0/24
-Nmap scan report for _gateway (192.168.15.1)
-Host is up (0.0039s latency).
-Nmap scan report for desk-N6440 (192.168.15.7)
-Host is up (0.000037s latency).
-Nmap scan report for 192.168.15.14
-Host is up (0.023s latency).
-# Nmap done at Sat Mar 14 16:19:47 2026 -- 256 IP addresses (3 hosts up) scanned in 22.46 seconds
