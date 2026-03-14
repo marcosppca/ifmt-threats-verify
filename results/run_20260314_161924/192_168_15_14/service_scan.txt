@@ -1,0 +1,67 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-03-14 16:19 -03
+Nmap scan report for 192.168.15.14
+Host is up (0.0037s latency).
+
+PORT     STATE  SERVICE    VERSION
+23/tcp   closed telnet
+80/tcp   open   http       jdbhttpd/0.1.0
+443/tcp  closed https
+554/tcp  open   rtsp
+8080/tcp closed http-proxy
+8899/tcp open   tcpwrapped
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.95%I=7%D=3/14%Time=69B5B4E5%P=x86_64-unknown-linux-gnu%r
+SF:(GetRequest,104,"HTTP/1\.0\x20404\x20NOT\x20FOUND\r\nServer:\x20jdbhttp
+SF:d/0\.1\.0\r\nContent-Type:\x20text/html\r\nContent-Length:\x20164\r\n\r
+SF:\n<HTML><TITLE>Not\x20Found</TITLE>\r\n<BODY><P>The\x20server\x20could\
+SF:x20not\x20fulfill\r\nyour\x20request\x20because\x20the\x20resource\x20s
+SF:pecified\r\nis\x20unavailable\x20or\x20nonexistent\.\r\n</BODY></HTML>\
+SF:r\n")%r(HTTPOptions,E6,"HTTP/1\.0\x20501\x20Method\x20Not\x20Implemente
+SF:d\r\nServer:\x20jdbhttpd/0\.1\.0\r\nContent-Type:\x20text/html\r\nConte
+SF:nt-Length:\x20121\r\n\r\n<HTML><HEAD><TITLE>Method\x20Not\x20Implemente
+SF:d\r\n</TITLE></HEAD>\r\n<BODY><P>HTTP\x20request\x20method\x20not\x20su
+SF:pported\.\r\n</BODY></HTML>\r\n")%r(RTSPRequest,E6,"HTTP/1\.0\x20501\x2
+SF:0Method\x20Not\x20Implemented\r\nServer:\x20jdbhttpd/0\.1\.0\r\nContent
+SF:-Type:\x20text/html\r\nContent-Length:\x20121\r\n\r\n<HTML><HEAD><TITLE
+SF:>Method\x20Not\x20Implemented\r\n</TITLE></HEAD>\r\n<BODY><P>HTTP\x20re
+SF:quest\x20method\x20not\x20supported\.\r\n</BODY></HTML>\r\n")%r(FourOhF
+SF:ourRequest,104,"HTTP/1\.0\x20404\x20NOT\x20FOUND\r\nServer:\x20jdbhttpd
+SF:/0\.1\.0\r\nContent-Type:\x20text/html\r\nContent-Length:\x20164\r\n\r\
+SF:n<HTML><TITLE>Not\x20Found</TITLE>\r\n<BODY><P>The\x20server\x20could\x
+SF:20not\x20fulfill\r\nyour\x20request\x20because\x20the\x20resource\x20sp
+SF:ecified\r\nis\x20unavailable\x20or\x20nonexistent\.\r\n</BODY></HTML>\r
+SF:\n")%r(GenericLines,E6,"HTTP/1\.0\x20501\x20Method\x20Not\x20Implemente
+SF:d\r\nServer:\x20jdbhttpd/0\.1\.0\r\nContent-Type:\x20text/html\r\nConte
+SF:nt-Length:\x20121\r\n\r\n<HTML><HEAD><TITLE>Method\x20Not\x20Implemente
+SF:d\r\n</TITLE></HEAD>\r\n<BODY><P>HTTP\x20request\x20method\x20not\x20su
+SF:pported\.\r\n</BODY></HTML>\r\n")%r(Help,E6,"HTTP/1\.0\x20501\x20Method
+SF:\x20Not\x20Implemented\r\nServer:\x20jdbhttpd/0\.1\.0\r\nContent-Type:\
+SF:x20text/html\r\nContent-Length:\x20121\r\n\r\n<HTML><HEAD><TITLE>Method
+SF:\x20Not\x20Implemented\r\n</TITLE></HEAD>\r\n<BODY><P>HTTP\x20request\x
+SF:20method\x20not\x20supported\.\r\n</BODY></HTML>\r\n")%r(SSLSessionReq,
+SF:E6,"HTTP/1\.0\x20501\x20Method\x20Not\x20Implemented\r\nServer:\x20jdbh
+SF:ttpd/0\.1\.0\r\nContent-Type:\x20text/html\r\nContent-Length:\x20121\r\
+SF:n\r\n<HTML><HEAD><TITLE>Method\x20Not\x20Implemented\r\n</TITLE></HEAD>
+SF:\r\n<BODY><P>HTTP\x20request\x20method\x20not\x20supported\.\r\n</BODY>
+SF:</HTML>\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port554-TCP:V=7.95%I=7%D=3/14%Time=69B5B4EA%P=x86_64-unknown-linux-gnu%
+SF:r(GetRequest,63,"RTSP/1\.0\x20501\x20Not\x20Implemented\r\nCSeq:\x200\r
+SF:\nDate:\x20Sat,\x20Mar\x2014\x202026\x2019:20:04\x20GMT\r\nServer:\x20R
+SF:TSP\x20Server\r\n\r\n")%r(RTSPRequest,5D,"RTSP/1\.0\x20404\x20Not\x20Fo
+SF:und\r\nCSeq:\x200\r\nDate:\x20Sat,\x20Mar\x2014\x202026\x2019:20:09\x20
+SF:GMT\r\nServer:\x20RTSP\x20Server\r\n\r\n")%r(GenericLines,63,"RTSP/1\.0
+SF:\x20501\x20Not\x20Implemented\r\nCSeq:\x200\r\nDate:\x20Sat,\x20Mar\x20
+SF:14\x202026\x2019:20:14\x20GMT\r\nServer:\x20RTSP\x20Server\r\n\r\n")%r(
+SF:HTTPOptions,69,"RTSP/1\.0\x20505\x20Version\x20not\x20supported\r\nCSeq
+SF::\x200\r\nDate:\x20Sat,\x20Mar\x2014\x202026\x2019:20:19\x20GMT\r\nServ
+SF:er:\x20RTSP\x20Server\r\n\r\n")%r(FourOhFourRequest,63,"RTSP/1\.0\x2050
+SF:1\x20Not\x20Implemented\r\nCSeq:\x200\r\nDate:\x20Sat,\x20Mar\x2014\x20
+SF:2026\x2019:20:24\x20GMT\r\nServer:\x20RTSP\x20Server\r\n\r\n")%r(SIPOpt
+SF:ions,6A,"RTSP/1\.0\x20505\x20Version\x20not\x20supported\r\nCSeq:\x2042
+SF:\r\nDate:\x20Sat,\x20Mar\x2014\x202026\x2019:20:29\x20GMT\r\nServer:\x2
+SF:0RTSP\x20Server\r\n\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 148.05 seconds

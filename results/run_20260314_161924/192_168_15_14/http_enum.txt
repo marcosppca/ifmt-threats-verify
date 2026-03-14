@@ -1,0 +1,104 @@
+### GET /
+HTTP/1.0 404 NOT FOUND
+Server: jdbhttpd/0.1.0
+Content-Type: text/html
+Content-Length: 164
+
+<HTML><TITLE>Not Found</TITLE>
+<BODY><P>The server could not fulfill
+your request because the resource specified
+is unavailable or nonexistent.
+</BODY></HTML>
+
+
+### GET /index.html
+HTTP/1.0 404 NOT FOUND
+Server: jdbhttpd/0.1.0
+Content-Type: text/html
+Content-Length: 164
+
+<HTML><TITLE>Not Found</TITLE>
+<BODY><P>The server could not fulfill
+your request because the resource specified
+is unavailable or nonexistent.
+</BODY></HTML>
+
+
+### GET /login.html
+HTTP/1.0 404 NOT FOUND
+Server: jdbhttpd/0.1.0
+Content-Type: text/html
+Content-Length: 164
+
+<HTML><TITLE>Not Found</TITLE>
+<BODY><P>The server could not fulfill
+your request because the resource specified
+is unavailable or nonexistent.
+</BODY></HTML>
+
+
+### GET /main.html
+HTTP/1.0 404 NOT FOUND
+Server: jdbhttpd/0.1.0
+Content-Type: text/html
+Content-Length: 164
+
+<HTML><TITLE>Not Found</TITLE>
+<BODY><P>The server could not fulfill
+your request because the resource specified
+is unavailable or nonexistent.
+</BODY></HTML>
+
+
+### GET /web/
+HTTP/1.0 404 NOT FOUND
+Server: jdbhttpd/0.1.0
+Content-Type: text/html
+Content-Length: 164
+
+<HTML><TITLE>Not Found</TITLE>
+<BODY><P>The server could not fulfill
+your request because the resource specified
+is unavailable or nonexistent.
+</BODY></HTML>
+
+
+### GET /cgi-bin/
+HTTP/1.0 404 NOT FOUND
+Server: jdbhttpd/0.1.0
+Content-Type: text/html
+Content-Length: 164
+
+<HTML><TITLE>Not Found</TITLE>
+<BODY><P>The server could not fulfill
+your request because the resource specified
+is unavailable or nonexistent.
+</BODY></HTML>
+
+
+### GET /cgi-bin/status
+HTTP/1.0 404 NOT FOUND
+Server: jdbhttpd/0.1.0
+Content-Type: text/html
+Content-Length: 164
+
+<HTML><TITLE>Not Found</TITLE>
+<BODY><P>The server could not fulfill
+your request because the resource specified
+is unavailable or nonexistent.
+</BODY></HTML>
+
+
+### GET /cgi-bin/system
+HTTP/1.0 404 NOT FOUND
+Server: jdbhttpd/0.1.0
+Content-Type: text/html
+Content-Length: 164
+
+<HTML><TITLE>Not Found</TITLE>
+<BODY><P>The server could not fulfill
+your request because the resource specified
+is unavailable or nonexistent.
+</BODY></HTML>
+
+

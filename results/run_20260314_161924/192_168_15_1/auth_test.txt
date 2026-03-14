@@ -1,0 +1,22 @@
+RTSP authentication test for 192.168.15.1
+Stream path: /live/ch0
+
+Testing: user:user
+[FAILED]
+
+Testing: admin:admin
+[FAILED]
+
+Testing: admin:12345
+[FAILED]
+
+Testing: admin:password
+[FAILED]
+
+Testing: user:password
+[FAILED]
+
+Testing: guest:guest
+[FAILED]
+
+Nenhuma credencial testada funcionou.

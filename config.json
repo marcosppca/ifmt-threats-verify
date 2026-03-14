@@ -1,0 +1,40 @@
+{
+  "network": "192.168.15.0/24",
+  "ports": "80,443,554,8080,8899,23",
+  "http_paths": [
+    "/",
+    "/index.html",
+    "/login.html",
+    "/main.html",
+    "/web/",
+    "/cgi-bin/",
+    "/cgi-bin/status",
+    "/cgi-bin/system"
+  ],
+  "rtsp_paths": [
+    "",
+    "/live",
+    "/stream",
+    "/stream1",
+    "/ch0",
+    "/av0_0",
+    "/h264Preview_01_main"
+  ],
+  "capture_duration": 20,
+  "availability_requests": 8,
+  "availability_delay_seconds": 0.5,
+  "min_candidate_score": 3,
+  "auth_test_enabled": true,
+  "auth_test_max_attempts": 5,
+  "auth_test_paths": [
+    "/",
+    "/login.html"
+  ],
+  "auth_test_credentials": [
+    ["admin", "admin"],
+    ["admin", "12345"],
+    ["admin", "123456"],
+    ["root", "root"],
+    ["user", "user"]
+  ]
+}

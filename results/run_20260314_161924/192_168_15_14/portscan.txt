@@ -1,0 +1,13 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-03-14 16:19 -03
+Nmap scan report for 192.168.15.14
+Host is up (0.0050s latency).
+
+PORT     STATE  SERVICE
+23/tcp   closed telnet
+80/tcp   open   http
+443/tcp  closed https
+554/tcp  open   rtsp
+8080/tcp closed http-proxy
+8899/tcp open   ospf-lite
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds

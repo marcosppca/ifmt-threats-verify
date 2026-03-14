@@ -1,0 +1,8 @@
+/
+/index.html
+/login.html
+/main.html
+/web/
+/cgi-bin/
+/cgi-bin/status
+/cgi-bin/system

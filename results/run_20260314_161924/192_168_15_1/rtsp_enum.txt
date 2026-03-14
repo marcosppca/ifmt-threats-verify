@@ -1,0 +1,35 @@
+### OPTIONS rtsp://192.168.15.1:554
+
+### DESCRIBE rtsp://192.168.15.1:554
+
+
+### OPTIONS rtsp://192.168.15.1:554/live
+
+### DESCRIBE rtsp://192.168.15.1:554/live
+
+
+### OPTIONS rtsp://192.168.15.1:554/stream
+
+### DESCRIBE rtsp://192.168.15.1:554/stream
+
+
+### OPTIONS rtsp://192.168.15.1:554/stream1
+
+### DESCRIBE rtsp://192.168.15.1:554/stream1
+
+
+### OPTIONS rtsp://192.168.15.1:554/ch0
+
+### DESCRIBE rtsp://192.168.15.1:554/ch0
+
+
+### OPTIONS rtsp://192.168.15.1:554/av0_0
+
+### DESCRIBE rtsp://192.168.15.1:554/av0_0
+
+
+### OPTIONS rtsp://192.168.15.1:554/h264Preview_01_main
+
+### DESCRIBE rtsp://192.168.15.1:554/h264Preview_01_main
+
+
